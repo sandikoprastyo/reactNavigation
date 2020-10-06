@@ -1,0 +1,4 @@
+#Tue Oct 06 20:10:26 WIB 2020
+base.0=/home/mint/Documents/React-native/reactNavigation/android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

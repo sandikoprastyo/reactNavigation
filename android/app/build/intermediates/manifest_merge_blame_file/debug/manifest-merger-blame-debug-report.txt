@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactnavigation"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/mint/Documents/React-native/reactNavigation/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/mint/Documents/React-native/reactNavigation/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.37.0] /home/mint/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.37.0] /home/mint/.gradle/caches/transforms-2/files-2.1/623174cd4892d9fb924ac44b102b25c0/flipper-0.37.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:24:5-79
+14-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:24:22-76
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:25:5-68
+15-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:25:22-65
+16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+16-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:26:5-110
+16-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:26:22-107
+17
+18    <application
+18-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:6:5-25:19
+19        android:name="com.reactnavigation.MainApplication"
+19-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:7:7-38
+20        android:allowBackup="false"
+20-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:11:7-34
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] /home/mint/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme"
+26-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:12:7-38
+27        android:usesCleartextTraffic="true" >
+27-->/home/mint/Documents/React-native/reactNavigation/android/app/src/debug/AndroidManifest.xml:7:18-53
+28        <activity
+28-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:13:7-23:18
+29            android:name="com.reactnavigation.MainActivity"
+29-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:14:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:16:9-86
+31            android:label="@string/app_name"
+31-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:15:9-41
+32            android:launchMode="singleTask"
+32-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:17:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:18:9-51
+34            <intent-filter>
+34-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:19:9-22:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:20:13-65
+35-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:20:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:21:13-73
+37-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:21:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+40-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:24:7-84
+40-->/home/mint/Documents/React-native/reactNavigation/android/app/src/main/AndroidManifest.xml:24:17-81
+41        <activity
+41-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:23:9-27:75
+42            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+42-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:24:13-93
+43            android:excludeFromRecents="true"
+43-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:25:13-46
+44            android:exported="false"
+44-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:26:13-37
+45            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+45-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:27:13-72
+46        <!--
+47            Service handling Google Sign-In user revocation. For apps that do not integrate with
+48            Google Sign-In, this service will never be started.
+49        -->
+50        <service
+50-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:33:9-36:110
+51            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+51-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:34:13-89
+52            android:exported="true"
+52-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:35:13-36
+53            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+53-->[com.google.android.gms:play-services-auth:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/a86dcb96a08e1d28cf843cd013cbd7e7/jetified-play-services-auth-16.0.1/AndroidManifest.xml:36:13-107
+54
+55        <activity
+55-->[com.google.android.gms:play-services-base:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/cfd3805a31f2136754a8fd53b343726b/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/cfd3805a31f2136754a8fd53b343726b/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/cfd3805a31f2136754a8fd53b343726b/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:16.0.1] /home/mint/.gradle/caches/transforms-2/files-2.1/cfd3805a31f2136754a8fd53b343726b/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+59
+60        <receiver
+60-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:29:9-33:20
+61            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+61-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:30:13-85
+62            android:enabled="true"
+62-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:31:13-35
+63            android:exported="false" >
+63-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:32:13-37
+64        </receiver>
+65
+66        <service
+66-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:35:9-38:40
+67            android:name="com.google.android.gms.measurement.AppMeasurementService"
+67-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:36:13-84
+68            android:enabled="true"
+68-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:37:13-35
+69            android:exported="false" />
+69-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:38:13-37
+70        <service
+70-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:39:9-43:72
+71            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+71-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:40:13-87
+72            android:enabled="true"
+72-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:41:13-35
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:42:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->[com.google.android.gms:play-services-measurement:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/f5f67d58e43684da7718fed02d89960e/play-services-measurement-17.4.4/AndroidManifest.xml:43:13-69
+75        <service
+75-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/29dd5a2e4b5405c769f90c63908e2da9/play-services-measurement-api-17.4.4/AndroidManifest.xml:27:9-33:19
+76            android:name="com.google.firebase.components.ComponentDiscoveryService"
+76-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/29dd5a2e4b5405c769f90c63908e2da9/play-services-measurement-api-17.4.4/AndroidManifest.xml:28:13-84
+77            android:directBootAware="true"
+77-->[com.google.firebase:firebase-common:19.3.0] /home/mint/.gradle/caches/transforms-2/files-2.1/2d1f2069208c2d2268019e98387c91e0/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+78            android:exported="false" >
+78-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/29dd5a2e4b5405c769f90c63908e2da9/play-services-measurement-api-17.4.4/AndroidManifest.xml:29:13-37
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/29dd5a2e4b5405c769f90c63908e2da9/play-services-measurement-api-17.4.4/AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/29dd5a2e4b5405c769f90c63908e2da9/play-services-measurement-api-17.4.4/AndroidManifest.xml:31:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:17.4.4] /home/mint/.gradle/caches/transforms-2/files-2.1/29dd5a2e4b5405c769f90c63908e2da9/play-services-measurement-api-17.4.4/AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-installations:16.3.2] /home/mint/.gradle/caches/transforms-2/files-2.1/9eb2499f9148ed63f4298063a5ece213/firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+83                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+83-->[com.google.firebase:firebase-installations:16.3.2] /home/mint/.gradle/caches/transforms-2/files-2.1/9eb2499f9148ed63f4298063a5ece213/firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-installations:16.3.2] /home/mint/.gradle/caches/transforms-2/files-2.1/9eb2499f9148ed63f4298063a5ece213/firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+85        </service>
+86
+87        <provider
+87-->[com.google.firebase:firebase-common:19.3.0] /home/mint/.gradle/caches/transforms-2/files-2.1/2d1f2069208c2d2268019e98387c91e0/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+88            android:name="com.google.firebase.provider.FirebaseInitProvider"
+88-->[com.google.firebase:firebase-common:19.3.0] /home/mint/.gradle/caches/transforms-2/files-2.1/2d1f2069208c2d2268019e98387c91e0/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+89            android:authorities="com.reactnavigation.firebaseinitprovider"
+89-->[com.google.firebase:firebase-common:19.3.0] /home/mint/.gradle/caches/transforms-2/files-2.1/2d1f2069208c2d2268019e98387c91e0/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+90            android:exported="false"
+90-->[com.google.firebase:firebase-common:19.3.0] /home/mint/.gradle/caches/transforms-2/files-2.1/2d1f2069208c2d2268019e98387c91e0/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+91            android:initOrder="100" />
+91-->[com.google.firebase:firebase-common:19.3.0] /home/mint/.gradle/caches/transforms-2/files-2.1/2d1f2069208c2d2268019e98387c91e0/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+92
+93        <meta-data
+93-->[com.google.android.gms:play-services-basement:17.0.0] /home/mint/.gradle/caches/transforms-2/files-2.1/e6f0dc6a052e163d5c2e2769c48a9e7b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+94            android:name="com.google.android.gms.version"
+94-->[com.google.android.gms:play-services-basement:17.0.0] /home/mint/.gradle/caches/transforms-2/files-2.1/e6f0dc6a052e163d5c2e2769c48a9e7b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+95            android:value="@integer/google_play_services_version" />
+95-->[com.google.android.gms:play-services-basement:17.0.0] /home/mint/.gradle/caches/transforms-2/files-2.1/e6f0dc6a052e163d5c2e2769c48a9e7b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+96    </application>
+97
+98</manifest>
