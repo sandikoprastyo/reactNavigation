@@ -15,6 +15,8 @@ const SignUp = ({navigation}) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const [secureTextEntry, setSecureTextEntry] = useState(true);
+  const [iconState, setIconState] = useState('eye-slash');
 
   const handleSignUp = () => {
     firebase
@@ -31,6 +33,11 @@ const SignUp = ({navigation}) => {
         const errorMessage = error.message;
         setError(errorMessage);
       });
+  };
+
+  const showPass = () => {
+    setSecureTextEntry(false);
+    setIconState('eye');
   };
 
   return (
@@ -58,8 +65,11 @@ const SignUp = ({navigation}) => {
         <Input
           label="Password"
           value={password}
-          secureTextEntry
+          secureTextEntry={secureTextEntry}
           leftIcon={<Icon name="lock" size={24} color="black" />}
+          rightIcon={
+            <Icon name={iconState} size={20} color="black" onPress={showPass} />
+          }
           onChangeText={(text) => setPassword(text)}
         />
         <Text style={styles.err}>{error}</Text>

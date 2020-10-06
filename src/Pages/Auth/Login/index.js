@@ -22,6 +22,8 @@ const Logins = ({navigation}) => {
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [secureTextEntry, setSecureTextEntry] = useState(true);
+  const [iconState, setIconState] = useState('eye-slash');
 
   const simulateNetworkRequest = () => {
     return new Promise((resolve) => setTimeout(resolve, 2000));
@@ -102,6 +104,11 @@ const Logins = ({navigation}) => {
       });
   };
 
+  const showPass = () => {
+    setSecureTextEntry(false);
+    setIconState('eye');
+  };
+
   return (
     <ImageBackground
       style={styles.container}
@@ -122,14 +129,17 @@ const Logins = ({navigation}) => {
         <Input
           label="Email"
           value={email}
-          leftIcon={<Icon name="user" size={24} color="black" />}
+          leftIcon={<Icon name="user" size={20} color="black" />}
           onChangeText={(text) => setEmail(text)}
         />
         <Input
           label="Password"
           value={password}
-          secureTextEntry
-          leftIcon={<Icon name="lock" size={24} color="black" />}
+          secureTextEntry={secureTextEntry}
+          leftIcon={<Icon name="lock" size={20} color="black" />}
+          rightIcon={
+            <Icon name={iconState} size={20} color="black" onPress={showPass} />
+          }
           onChangeText={(text) => setPassword(text)}
         />
         <Text style={styles.err}>{error}</Text>

@@ -27,7 +27,7 @@ const Profile = ({route, navigation}) => {
     <View style={styles.container}>
       <Text>Profile menerima params dari dashboard</Text>
       <View>
-        <Text>Email : {email}</Text>
+        <Text>Email : props email</Text>
       </View>
       <Button
         title="Back to Home"
